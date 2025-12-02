@@ -1,0 +1,303 @@
+{
+	"info": {
+		"_postman_id": "5cde07ba-2e07-45ad-8522-b89d66f9df7a",
+		"name": "WEB2-TRABAJO-OPCIONAL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "44203539"
+	},
+	"item": [
+		{
+			"name": "get equipos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/equipos"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 02 Dec 2025 01:24:09 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"nombre\": \"Atlético Nueva Providencia\",\n        \"anioFundacion\": 1962,\n        \"comunaLocal\": \"Providencia\",\n        \"historia\": \"Fundado por comerciantes y estudiantes del sector Nueva Providencia, surgió como un club de barrio que buscaba unir a la comunidad en torno al fútbol amateur.\"\n    },\n    {\n        \"id\": 2,\n        \"nombre\": \"Unión San Miguel\",\n        \"anioFundacion\": 1974,\n        \"comunaLocal\": \"San Miguel\",\n        \"historia\": \"Nació tras la fusión de dos equipos juveniles del sector norte de San Miguel, con una fuerte identidad ligada a las escuelas públicas de la comuna.\"\n    },\n    {\n        \"id\": 3,\n        \"nombre\": \"Deportivo Lo Prado Unido\",\n        \"anioFundacion\": 1981,\n        \"comunaLocal\": \"Lo Prado\",\n        \"historia\": \"Creado por vecinos de distintas villas de Lo Prado, el club se consolidó gracias a campeonatos internos organizados en canchas de tierra.\"\n    },\n    {\n        \"id\": 4,\n        \"nombre\": \"Municipal Cerro Navia Sur\",\n        \"anioFundacion\": 1990,\n        \"comunaLocal\": \"Cerro Navia\",\n        \"historia\": \"Impulsado por la municipalidad y dirigentes sociales, buscó dar una alternativa deportiva a niños y jóvenes de los barrios del sur de Cerro Navia.\"\n    },\n    {\n        \"id\": 5,\n        \"nombre\": \"Juventud Estación Central\",\n        \"anioFundacion\": 1958,\n        \"comunaLocal\": \"Estación Central\",\n        \"historia\": \"Su origen está ligado a trabajadores ferroviarios y pequeños comerciantes del entorno de la Estación Central, con una tradición de fútbol aguerrido.\"\n    },\n    {\n        \"id\": 6,\n        \"nombre\": \"Real Independencia\",\n        \"anioFundacion\": 1968,\n        \"comunaLocal\": \"Independencia\",\n        \"historia\": \"Fundado por hinchas apasionados de diversos clubes profesionales, quisieron crear su propio \\\"real\\\" de barrio en las canchas municipales de Independencia.\"\n    },\n    {\n        \"id\": 7,\n        \"nombre\": \"Club Social Barrio Yungay\",\n        \"anioFundacion\": 1949,\n        \"comunaLocal\": \"Santiago\",\n        \"historia\": \"Nació como un club social y cultural del histórico Barrio Yungay, donde el fútbol se transformó en su principal actividad comunitaria.\"\n    },\n    {\n        \"id\": 8,\n        \"nombre\": \"Unión Recoleta Norte\",\n        \"anioFundacion\": 1987,\n        \"comunaLocal\": \"Recoleta\",\n        \"historia\": \"Formado por equipos de pasaje y pasaje del sector norte de Recoleta, se unieron para competir en ligas barriales más organizadas.\"\n    },\n    {\n        \"id\": 9,\n        \"nombre\": \"Huracán La Cisterna\",\n        \"anioFundacion\": 1971,\n        \"comunaLocal\": \"La Cisterna\",\n        \"historia\": \"Inspirado en el viento que suele azotar la zona, el club adoptó un estilo de juego ofensivo que lo hizo famoso en campeonatos locales.\"\n    },\n    {\n        \"id\": 10,\n        \"nombre\": \"Deportivo Parque O'Higgins\",\n        \"anioFundacion\": 2003,\n        \"comunaLocal\": \"Santiago\",\n        \"historia\": \"Fundado por deportistas aficionados que entrenaban en el Parque O'Higgins, mezclando trote recreativo y fútbol amateur de fin de semana.\"\n    },\n    {\n        \"id\": 11,\n        \"nombre\": \"Estrella de Pedro Aguirre Cerda\",\n        \"anioFundacion\": 1995,\n        \"comunaLocal\": \"Pedro Aguirre Cerda\",\n        \"historia\": \"Nació en una población emblemática de la comuna, buscando ser la \\\"estrella\\\" deportiva de los jóvenes del sector.\"\n    },\n    {\n        \"id\": 12,\n        \"nombre\": \"Atlético Santiago Centro\",\n        \"anioFundacion\": 1952,\n        \"comunaLocal\": \"Santiago\",\n        \"historia\": \"Formado por oficinistas y estudiantes del centro de la ciudad, compite hace décadas en ligas empresariales y barriales de la capital.\"\n    },\n    {\n        \"id\": 13,\n        \"nombre\": \"Municipal San Joaquín Oriente\",\n        \"anioFundacion\": 2001,\n        \"comunaLocal\": \"San Joaquín\",\n        \"historia\": \"Proyecto impulsado por la oficina de deportes de la comuna para potenciar el fútbol formativo en los barrios del sector oriente de San Joaquín.\"\n    },\n    {\n        \"id\": 14,\n        \"nombre\": \"Club Deportivo Villa Portales\",\n        \"anioFundacion\": 1965,\n        \"comunaLocal\": \"Estación Central\",\n        \"historia\": \"Nació dentro del conjunto habitacional Villa Portales, con un fuerte arraigo comunitario y una tradición de torneos internos muy competitivos.\"\n    },\n    {\n        \"id\": 15,\n        \"nombre\": \"Unión Macul Viejo\",\n        \"anioFundacion\": 1979,\n        \"comunaLocal\": \"Macul\",\n        \"historia\": \"Creado por familias tradicionales del sector conocido como Macul Viejo, representa la historia y memoria futbolera de la comuna.\"\n    },\n    {\n        \"id\": 16,\n        \"nombre\": \"Deportivo Franklin Unido\",\n        \"anioFundacion\": 1983,\n        \"comunaLocal\": \"Santiago\",\n        \"historia\": \"Tiene sus raíces en el barrio comercial de Franklin, donde locatarios y cargadores formaron un equipo para representar al sector en campeonatos.\"\n    },\n    {\n        \"id\": 17,\n        \"nombre\": \"Atlético Parque Forestal\",\n        \"anioFundacion\": 1999,\n        \"comunaLocal\": \"Santiago\",\n        \"historia\": \"Fundado por jóvenes que jugaban fútbol callejero en el entorno del Parque Forestal, se formalizó para participar en ligas organizadas.\"\n    },\n    {\n        \"id\": 18,\n        \"nombre\": \"Sporting Ñuñoa Sur\",\n        \"anioFundacion\": 1976,\n        \"comunaLocal\": \"Ñuñoa\",\n        \"historia\": \"Club con vocación multideportiva del sector sur de Ñuñoa, donde el fútbol se convirtió en la disciplina principal.\"\n    },\n    {\n        \"id\": 19,\n        \"nombre\": \"Municipal Providencia Cordillera\",\n        \"anioFundacion\": 2005,\n        \"comunaLocal\": \"Providencia\",\n        \"historia\": \"Proyecto deportivo municipal orientado a deportistas del eje oriente y precordillerano de Providencia, con énfasis en trabajo juvenil.\"\n    },\n    {\n        \"id\": 20,\n        \"nombre\": \"Ferroviarios de Quinta Normal\",\n        \"anioFundacion\": 1956,\n        \"comunaLocal\": \"Quinta Normal\",\n        \"historia\": \"Formado por trabajadores vinculados al mundo ferroviario que residían en Quinta Normal, heredando la mística del esfuerzo y el sacrificio.\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "get por nombre equipo",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/equipos/buscar?nombre=Municipal",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"equipos",
+								"buscar"
+							],
+							"query": [
+								{
+									"key": "nombre",
+									"value": "Municipal"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 02 Dec 2025 01:27:23 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 4,\n        \"nombre\": \"Municipal Cerro Navia Sur\",\n        \"anioFundacion\": 1990,\n        \"comunaLocal\": \"Cerro Navia\",\n        \"historia\": \"Impulsado por la municipalidad y dirigentes sociales, buscó dar una alternativa deportiva a niños y jóvenes de los barrios del sur de Cerro Navia.\"\n    },\n    {\n        \"id\": 13,\n        \"nombre\": \"Municipal San Joaquín Oriente\",\n        \"anioFundacion\": 2001,\n        \"comunaLocal\": \"San Joaquín\",\n        \"historia\": \"Proyecto impulsado por la oficina de deportes de la comuna para potenciar el fútbol formativo en los barrios del sector oriente de San Joaquín.\"\n    },\n    {\n        \"id\": 19,\n        \"nombre\": \"Municipal Providencia Cordillera\",\n        \"anioFundacion\": 2005,\n        \"comunaLocal\": \"Providencia\",\n        \"historia\": \"Proyecto deportivo municipal orientado a deportistas del eje oriente y precordillerano de Providencia, con énfasis en trabajo juvenil.\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "get por fecha partido",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/partidos?fecha=2026-03-14",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"partidos"
+							],
+							"query": [
+								{
+									"key": "fecha",
+									"value": "2026-03-14"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 02 Dec 2025 01:28:15 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 11,\n        \"ligaId\": 1,\n        \"jornada\": 2,\n        \"fecha\": \"2026-03-14\",\n        \"horaInicio\": \"12:00:00\",\n        \"equipoLocalNombre\": \"Unión San Miguel\",\n        \"equipoVisitaNombre\": \"Deportivo Lo Prado Unido\",\n        \"golesLocal\": null,\n        \"golesVisita\": null,\n        \"estado\": \"PROGRAMADO\"\n    },\n    {\n        \"id\": 12,\n        \"ligaId\": 1,\n        \"jornada\": 2,\n        \"fecha\": \"2026-03-14\",\n        \"horaInicio\": \"15:00:00\",\n        \"equipoLocalNombre\": \"Municipal Cerro Navia Sur\",\n        \"equipoVisitaNombre\": \"Juventud Estación Central\",\n        \"golesLocal\": null,\n        \"golesVisita\": null,\n        \"estado\": \"PROGRAMADO\"\n    },\n    {\n        \"id\": 13,\n        \"ligaId\": 1,\n        \"jornada\": 2,\n        \"fecha\": \"2026-03-14\",\n        \"horaInicio\": \"18:00:00\",\n        \"equipoLocalNombre\": \"Real Independencia\",\n        \"equipoVisitaNombre\": \"Club Social Barrio Yungay\",\n        \"golesLocal\": null,\n        \"golesVisita\": null,\n        \"estado\": \"PROGRAMADO\"\n    },\n    {\n        \"id\": 18,\n        \"ligaId\": 1,\n        \"jornada\": 2,\n        \"fecha\": \"2026-03-14\",\n        \"horaInicio\": \"20:30:00\",\n        \"equipoLocalNombre\": \"Deportivo Franklin Unido\",\n        \"equipoVisitaNombre\": \"Atlético Parque Forestal\",\n        \"golesLocal\": null,\n        \"golesVisita\": null,\n        \"estado\": \"PROGRAMADO\"\n    },\n    {\n        \"id\": 20,\n        \"ligaId\": 1,\n        \"jornada\": 2,\n        \"fecha\": \"2026-03-14\",\n        \"horaInicio\": \"10:00:00\",\n        \"equipoLocalNombre\": \"Ferroviarios de Quinta Normal\",\n        \"equipoVisitaNombre\": \"Atlético Nueva Providencia\",\n        \"golesLocal\": null,\n        \"golesVisita\": null,\n        \"estado\": \"PROGRAMADO\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "put marcador",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"golesLocal\": 2,\r\n  \"golesVisita\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/partidos/1/marcador"
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"golesLocal\": 2,\r\n  \"golesVisita\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/partidos/1/marcador"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 02 Dec 2025 01:31:31 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"ligaId\": 1,\n    \"jornada\": 1,\n    \"fecha\": \"2026-03-07\",\n    \"horaInicio\": \"12:00:00\",\n    \"equipoLocalNombre\": \"Atlético Nueva Providencia\",\n    \"equipoVisitaNombre\": \"Unión San Miguel\",\n    \"golesLocal\": 2,\n    \"golesVisita\": 1,\n    \"estado\": \"JUGADO\"\n}"
+				}
+			]
+		},
+		{
+			"name": "put con error",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"golesLocal\": 2,\r\n  \"golesVisita\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/partidos/8768761/marcador"
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"golesLocal\": 2,\r\n  \"golesVisita\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/partidos/8768761/marcador"
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 02 Dec 2025 01:35:31 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"timestamp\": \"2025-12-01T22:35:31.0082511\",\n    \"status\": 404,\n    \"error\": \"Not Found\",\n    \"mensaje\": \"Partido no encontrado con ID: 8768761\",\n    \"path\": \"/api/partidos/8768761/marcador\"\n}"
+				}
+			]
+		}
+	]
+}
